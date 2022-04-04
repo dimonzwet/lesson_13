@@ -25,12 +25,13 @@ body {
 }
 .header__title {
 	font-family: "Roboto", sans-serif;
+	color: #fff;	
 	text-align: center;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 150%;
 	text-transform: uppercase;
-	text-shadow: 2px 2px 5px rgb(57, 137, 212);
+	text-shadow: 4px 3px 5px rgb(14, 16, 19);
 }
 /* ================================================================ */
 .main {
@@ -73,18 +74,18 @@ body {
 		transform:translate(1050px,-462px) scale(0.3);
 	}
 	45%{
-		transform:translate(2100px,-462px) rotate(10deg) scale(0.2);
+		transform:translate(2300px,-462px) rotate(10deg) scale(0.2);
 	}
 	60%{		
-		transform:translate(2100px,-562px) rotate(-10deg) scale(-0.2, 0.2);
+		transform:translate(2300px,-562px) rotate(-10deg) scale(-0.2, 0.2);
 	}
 	90%{		
 		opacity: 1;
-		transform:translate(-3700px,-562px) rotate(-10deg) scale(-0.9, 0.9);
+		transform:translate(-3900px,-562px) rotate(-10deg) scale(-0.9, 0.9);
 	}
 	100%{		
 		opacity: 0;
-		transform:translate(-3700px,-562px) rotate(-10deg) scale(-1.5, 1.5);
+		transform:translate(-3900px,-562px) rotate(-10deg) scale(-1.5, 1.5);
 	}
 }
 /* ================================================================ */
@@ -122,21 +123,25 @@ body {
 		opacity: 1;
 		transform: translate(1080px,-30px) rotate(70deg) scale(0.15);
 	}
+	20%{
+		opacity: 1;
+		transform: translate(1080px,-30px) rotate(430deg) scale(0.15);
+	}
 	50%{
 		opacity: 1;
-		transform: translate(1080px,-200px) scale(0.15);
+		transform: translate(1080px,-200px) rotate(790deg) scale(0.15);
 	}
 	90%{
 		opacity: 1;
-		transform: translate(-580px,-200px) rotate(430deg) scale(6);
+		transform: translate(-580px,-200px) rotate(1150deg) scale(6);
 	}
 	95%{
 		opacity: 0.5;
-		transform: translate(-580px,-200px) rotate(430deg) scale(7);
+		transform: translate(-580px,-200px) rotate(1200deg) scale(7);
 	}
 	100%{
 		opacity: 0;
-		transform: translate(-580px,-200px) rotate(430deg) scale(8);
+		transform: translate(-580px,-200px) rotate(1250deg) scale(8);
 	}
 }
 /* ================================================================ */
@@ -1096,7 +1101,7 @@ body {
 .dolphin__5 {
 	display: inline-block;
 	transform: scale(-0.1, 0.1);
-	animation: dolphin-5 2s linear 1 10s forwards;
+	animation: dolphin-5 2s linear 1 12s forwards;
 	opacity: 0;
 } 
 
@@ -1148,7 +1153,7 @@ body {
 	top: -45px;	
 	left: 180px;
 	transform: scale(0.15);
-	animation: penguin-2 1s linear 1 20s forwards;
+	animation: penguin-2 1s linear 1 23s forwards;
 }
 .iceberg__image-3 {
 }
@@ -1219,30 +1224,30 @@ body {
 /* ================================================================ */
 .penguin-head {
 	position: relative;
-	transform: rotate(30deg);
-	animation: penguin-head	10s linear 54s 1;
+	transform: rotate(25deg);
+	animation: penguin-head	10s linear 55s 1;
 }
 .penguin-head__image {
 }
 @keyframes penguin-head {
 	0%{
-		top: -1410px;
+		top: -1203px;
 		left: -600px;
-		transform: rotate(30deg);
+		transform: rotate(25deg);
 	}
 	50%{
-		top: -1410px;
+		top: -1203px;
 		left: -200px;
-		transform: rotate(30deg);
+		transform: rotate(25deg);
 	}
 	80%{
-		top: -1410px;
+		top: -1203px;
 		left: -200px;
-		transform: rotate(30deg);
+		transform: rotate(25deg);
 	}
 	100%{
-		top: -1410px;
+		top: -1203px;
 		left: -600px;
-		transform: rotate(30deg);
+		transform: rotate(25deg);
 	}
 }
